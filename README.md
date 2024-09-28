@@ -2,7 +2,7 @@
 # Tienda de productos de Peluquería
 
 ## Autora: 
-Mariela A. Trioni
+Mariela Alejandra Trioni
 
 ## Descripción:
 Este proyecto es una página web básica desarrollada para utilizarla como tienda online para vender productos de Peluquería.
