@@ -5,6 +5,18 @@
 Mariela Alejandra Trioni
 
 ## Descripción:
-Este proyecto es una página web básica desarrollada para utilizarla como tienda online para vender productos de Peluquería.
-La página está estructurada con HTML semántico y utiliza las etiquetas `<header>`, `<main>`, y `<footer>` para organizar el contenido. 
-El objetivo es aprender a crear la estructura básica de una página web y prepararla para futuras mejoras con CSS y JavaScript.# tienda_garcia_hs
+Este proyecto es el desarrollo una página web que incluye un carrito de compras, con el objetivo de  utilizarla como tienda online para vender productos de Peluquería.
+
+
+☞ Las tecnologías que se usaron fueron:
+
+✦ JavaScript
+✦ HTML
+✦ CSS
+
+
+☞ Las funciones del sitio web son:
+
+✦ Agregar productos
+✦ Listar productos
+✦ Eliminar curso

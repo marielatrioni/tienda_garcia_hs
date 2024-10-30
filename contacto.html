@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>García Hair Studio</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- Fuentes -->
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <img src="img/logo.png" class="logo" alt="Logo GHS">
+                <ul class="menu" id="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="resenas.html">Reseñas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="menu-bar">
+                    <i class="fas fa-bars" id="menu-bar"></i>
+                </div>
+                <div class="shop">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="titulos row">
+                <h3>García | Hair Studio</h3>
+                <h1>Contacto</h1>
+            </div>
+            <hr />
+            <section class="contacto">
+                <form class="form" action="https://formspree.io/f/xyzyzwze" method="POST">
+                    <div class="form_container">
+                        <p>Completa el siguiente formulario para comunicarte con nosotrxs:</p>
+                        <input type="text" name="nombre" id="nombre" class="form_input" placeholder="Escribe tu nombre">
+                        <input type="email" name="email" id="email" class="form_input" placeholder="Escribe tu email">
+                        <textarea name="mensaje" id="mensaje" class="form_input form_msj" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                        <button class="form_submit" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="radio-section">
+                <p>2024 | © GHS | by Mariela Trioni</p>
+                <h2>Seguinos...</h2>
+                <div class="redes">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
