@@ -19,4 +19,4 @@ Este proyecto es el desarrollo una página web que incluye un carrito de compras
 
 ✦ Agregar productos
 ✦ Listar productos
-✦ Eliminar curso
+✦ Eliminar productos

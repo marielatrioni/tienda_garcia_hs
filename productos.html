@@ -1,127 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>García Hair Studio</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico" />
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- Fuentes -->
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,700|PT+Serif:400,400i&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <nav class="navbar">
-            <img src="img/logo.png" class="logo" alt="Logo GHS">
-                <ul class="menu" id="menu">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="resenas.html">Reseñas</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            <div class="menu-bar">
-                <i class="fas fa-bars" id="menu-bar"></i>
-            </div>
-            <div class="shop">
-                <a href="#"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <img src="img/logo.png" class="logo" alt="Logo GHS" />
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="resenas.html">Reseñas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div class="menu-bar">
+          <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+        <div class="shop">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <div class="titulos row">
-            <h3>García | Hair Studio</h3>
-            <h1>Productos</h1>
-        </div>
-        <hr>
+      <div class="titulos row">
+        <h3>García | Hair Studio</h3>
+        <h1>Productos</h1>
+      </div>
+      <hr />
         <section>
-        <div class="cards">
-            <div class="card">
-                <div class="content">
-                    <h2>Mint Power Plex</h2>
-                    <img class="img-productos" src="img/productos/Question_Mint-Power-Plex_500g_960x1024px-660x660.png">
-                    <p>Polvo decolorante con High Technology Plex. Máximo poder aclarante, exclusivo uso profesional.</p>
-                    <h2>$ 44.922,00</h2>
-                </div>
-                <div class="footer">
-                    <a href="#"> Agregar al carrito</button> </a>
-                </div>
+            <div id="lista-productos">
+                <article ">
+                    
+                </article>
             </div>
-            <div class="card">
-                <div class="content">
-                    <h2>Tintura Lumiplex Color</h2>
-                    <img class="img-productos" src="img/productos/EstuchePomo_Lumiplex_60g_960x1024px-660x660.png">
-                    <p>Lumiplex, una gama de colores actuales e innovadores de coloración permanente y tono sobre tono.</p>
-                    <h2>$ 6.840,00</h2>
-                </div>
-                <div class="footer">
-                    <a href="#"><button class="button-negro"><i class="fas fa-shopping-basket"></i> Agregar al carrito</button></a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="content">
-                    <h2>Oleo Lumiere</h2>
-                    <img class="img-productos" src="img/productos/Oleo_lumiere_960x1024px-660x660.png">
-                    <p>Oleo Tratante Capilar<br>Presentaciones: Envase x 60 ml o 125 ml.</p>
-                    <h2>$ 33.877,00</h2>
-                </div>
-                <div class="footer">
-                    <a href="#"><button class="button-negro"><i class="fas fa-shopping-basket"></i> Agregar al carrito</button> </a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="content">
-                    <h2>Ampolla Keratin Lift</h2>
-                    <img class="img-productos" src="img/productos/Ampolla_keratin-lift-960x1024px-660x660.png">
-                    <p>Tratamiento Capilar<br>Presentaciones: 12 ampollas x 10 ml c/u.</p>
-                    <h2>$ 91.313,00</h2>
-                </div>
-                <div class="footer">
-                    <a href="#"><button class="button-negro"><i class="fas fa-shopping-basket"></i> Agregar al carrito</button> </a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="content">
-                    <h2>Máscara Color Defense</h2>
-                    <img class="img-productos" src="img/productos/MC_color_defense_330ml_960x1024px-660x660.png">
-                    <p>Máscara Capilar<br>Presentaciones: Pote x 330 ml o 850ml</p>
-                    <h2>$ 45.277,00</h2>
-                </div>
-                <div class="footer">
-                    <a href="#"><button class="button-negro"><i class="fas fa-shopping-basket"></i> Agregar al carrito</button> </a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="content">
-                    <h2>Shampoo Volumizer</h2>
-                    <img class="img-productos" src="img/productos/SH_volumizer_330ml_960x1024px-660x660.png">
-                    <p>Densidad y Color.<br>Presentaciones: Envase x 330 ml o 1500ml</p>
-                    <h2>$ 17.766,00</h2>
-                </div>
-                <div class="footer">
-                    <a href="#"><button class="button-negro"><i class="fas fa-shopping-basket"></i> Agregar al carrito</button> </a>
-                </div>
-            </div>
-        </div>
         </section>
     </main>
 
     <footer>
-        <div class="radio-section">
-            <p> 2024 | © GHS | by Mariela Trioni</p>
-            <h2>Seguinos...</h2>
-            <div class="redes">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-            </div>
+      <div class="radio-section">
+        <p>2024 | © GHS | by Mariela Trioni</p>
+        <h2>Seguinos...</h2>
+        <div class="redes">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
         </div>
+      </div>
     </footer>
-    
+
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>

@@ -114,37 +114,6 @@ section {
 
 @media only screen and (max-width: 600px)  {
   
-    .navbar {
-        display: block;    
-        text-align: center;
-    }
-    .hero .info-content {
-        z-index: 0;
-        grid-column: 4 / 11;
-        grid-row: 4 / 7;
-      }
-      .hero .info-content h1 {
-        font-size: 3.5em;
-      }
-      .hero .info-content h3 {
-        font-size: 1em;
-      }
-      .radio-section {
-        grid-template-areas:
-        "listen-online redes"
-      }
-      .radio-section h2 {
-        display: none;
-      }
-      .radio-section .redes {
-        margin: 0 auto;
-      }
-      .radio-section .redes .fab {
-        color: #fff;
-      }
-}
-/* @media only screen and (max-width: 600px)  {
-  
   .navbar {
     background-color: #bf9456;
     display: grid;
@@ -167,6 +136,7 @@ section {
   .navbar ul li a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
   }
   .navbar ul li a:hover {
     color: #fff;
@@ -218,8 +188,9 @@ section {
     grid-column: 8 / 10;
     color: #fff;
     font-size: 2em;
+    cursor: pointer;
     z-index: 1;
-  }  
+  } 
   .hero .info-content {
     z-index: 0;
     grid-column: 2 / 9;
@@ -244,31 +215,37 @@ section {
   .radio-section .redes .fab {
     color: #fff;
   }
-} */
+} 
 
 .titulos {
     text-align: center;
     padding: 20px;
     text-transform: uppercase;
 }
-.cards{
-    flex-wrap: wrap;
-    width: 90%;
-    display: flex;
-  
-}
+
 
 #lista-productos{
-    min-width: 400px;
-    max-width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    min-width:300px;
+    max-width:400px;
     margin: 10px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
     text-align: center;
-  
+    align-items:center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
+.card p {
+  font-size: 0.85rem;
+}
 
 .card h2 {
     text-align: center;
@@ -291,9 +268,10 @@ section {
     height: auto;
 }
 
-a .button-negro {
+.button-negro {
     color: #333;
-    font-weight: 500;
+    background-color: #bf9456;
+    font-weight: 600;
     height: 33px;
     padding: 0 10px;
     font-size: 14px;
@@ -301,6 +279,10 @@ a .button-negro {
     border-radius: 7px;
 }
 
+.button-negro:hover{
+background-color: #181818;
+color: #ddd;
+}
 .resenas {
     display: grid;
     grid-template-columns: 40% 40%;
