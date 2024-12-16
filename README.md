@@ -7,7 +7,6 @@ Mariela Alejandra Trioni
 ## Descripción:
 Este proyecto es el desarrollo una página web que incluye un carrito de compras, con el objetivo de  utilizarla como tienda online para vender productos de Peluquería.
 
-
 ☞ Las tecnologías que se usaron fueron:
 
 ✦ JavaScript
@@ -15,7 +14,8 @@ Este proyecto es el desarrollo una página web que incluye un carrito de compras
 ✦ CSS
 
 
-☞ Las funciones del sitio web son:
+
+☞ Las funciones del sitio web serán:
 
 ✦ Agregar productos
 ✦ Listar productos

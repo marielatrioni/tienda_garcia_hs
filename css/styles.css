@@ -252,13 +252,13 @@ section {
     text-transform: uppercase;
 }
 .cards{
-    min-width: 90vw;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    width: 90%;
+    display: flex;
+  
 }
 
-.card{
+#lista-productos{
     min-width: 400px;
     max-width: 400px;
     margin: 10px;
@@ -266,14 +266,11 @@ section {
     display: flex;
     flex-direction: column;
     text-align: center;
+  
 }
 
-.card .content{
-    flex-grow: 1;
-    flex-shrink: 1;
-}
 
-.card .content h2 {
+.card h2 {
     text-align: center;
     padding-bottom: 7px;
     padding-top: 7px;
