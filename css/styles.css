@@ -26,7 +26,8 @@ body {
   display: flex;
 }
 .navbar ul li {
-  margin-right: 3em;
+  margin-right: 2em;
+  margin-left: 1rem;
   list-style: none;
 }
 .navbar a {
@@ -115,107 +116,141 @@ section {
 @media only screen and (max-width: 600px)  {
   
   .navbar {
-    background-color: #bf9456;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    align-items: center;
+      display: block;    
+      text-align: center;
   }
-  .navbar .logo {
-    height: 60px;
-    width: 60px;
-    grid-column: 2 / 3;
-  }
-  .navbar .menu {
-    grid-column: 4 / 7;
-    display: flex;
-  }
-  .navbar ul li {
-    margin-right: 3em;
-    list-style: none;
-  }
-  .navbar ul li a {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-  }
-  .navbar ul li a:hover {
-    color: #fff;
-  }
-  .navbar .menu-bar {
-    display: none;
-  }
-  .navbar .shop {
-    grid-column: 8 / 9;
-    justify-content: flex-end;
-  }
-  .navbar {
-    position: relative;
-  }
-  .navbar .menu {
-    position: absolute;
-    width: 100%;
-    height: 70vh;
-    display: grid;
-    align-items: center;
-    background-color: #bf9456;
-    transform: translateX(170%);
-    transition: all 1s;
-    margin-top: 34em;
-    z-index: 1;
-  } 
-  .navbar .menu-toggle {
-    transform: translateX(70%);
-  }  
-   .navbar .shop {
-     display: none;
-   }
-  .navbar .menu-bar {
-    display: block;
-  }
-  .navbar .menu-bar .fas {
-    color: #181818;
-  }
-  .navbar .menu li {
-    list-style: none;
-    margin: 0 auto;
-  }  
-  .navbar .menu li a {
-    text-decoration: none;
-    color: #181818;
-    font-size: 1.2em;
-  } 
-  .navbar .menu-bar {
-    grid-column: 8 / 10;
-    color: #fff;
-    font-size: 2em;
-    cursor: pointer;
-    z-index: 1;
-  } 
   .hero .info-content {
-    z-index: 0;
-    grid-column: 2 / 9;
-    grid-row: 5 / 7;
-  }
-  .hero .info-content h1 {
-    font-size: 3.5em;
-  }
-  .hero .info-content h3 {
-    font-size: 1em;
-  }
-  .radio-section {
-    grid-template-areas:
-    "listen-online redes"
-  }
-  .radio-section h2 {
-    display: none;
-  }
-  .radio-section .redes {
-    margin: 0 auto;
-  }
-  .radio-section .redes .fab {
-    color: #fff;
-  }
+      z-index: 0;
+      grid-column: 4 / 11;
+      grid-row: 4 / 7;
+    }
+    .hero .info-content h1 {
+      font-size: 3.5em;
+    }
+    .hero .info-content h3 {
+      font-size: 1em;
+    }
+    .radio-section {
+      grid-template-areas:
+      "listen-online redes"
+    }
+    .radio-section h2 {
+      display: none;
+    }
+    .radio-section .redes {
+      margin: 0 auto;
+    }
+    .radio-section .redes .fab {
+      color: #fff;
+    }
+    .count-products{
+      position: absolute;
+      top: 55%;
+      right: 45%;
+    }
+}
+/* @media only screen and (max-width: 600px)  {
+
+.navbar {
+  background-color: #bf9456;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+}
+.navbar .logo {
+  height: 60px;
+  width: 60px;
+  grid-column: 2 / 3;
+}
+.navbar .menu {
+  grid-column: 4 / 7;
+  display: flex;
+}
+.navbar ul li {
+  margin-right: 3em;
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar ul li a:hover {
+  color: #fff;
+}
+.navbar .menu-bar {
+  display: none;
+}
+.navbar .shop {
+  grid-column: 8 / 9;
+  justify-content: flex-end;
+}
+.navbar {
+  position: relative;
+}
+.navbar .menu {
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  align-items: center;
+  background-color: #bf9456;
+  transform: translateX(170%);
+  transition: all 1s;
+  margin-top: 34em;
+  z-index: 1;
 } 
+.navbar .menu-toggle {
+  transform: translateX(70%);
+}  
+ .navbar .shop {
+   display: none;
+ }
+.navbar .menu-bar {
+  display: block;
+}
+.navbar .menu-bar .fas {
+  color: #181818;
+}
+.navbar .menu li {
+  list-style: none;
+  margin: 0 auto;
+}  
+.navbar .menu li a {
+  text-decoration: none;
+  color: #181818;
+  font-size: 1.2em;
+} 
+.navbar .menu-bar {
+  grid-column: 8 / 10;
+  color: #fff;
+  font-size: 2em;
+  z-index: 1;
+}  
+.hero .info-content {
+  z-index: 0;
+  grid-column: 2 / 9;
+  grid-row: 5 / 7;
+}
+.hero .info-content h1 {
+  font-size: 3.5em;
+}
+.hero .info-content h3 {
+  font-size: 1em;
+}
+.radio-section {
+  grid-template-areas:
+  "listen-online redes"
+}
+.radio-section h2 {
+  display: none;
+}
+.radio-section .redes {
+  margin: 0 auto;
+}
+.radio-section .redes .fab {
+  color: #fff;
+}
+} */
 
 .titulos {
     text-align: center;
@@ -277,6 +312,7 @@ section {
     font-size: 14px;
     border: 5px;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .button-negro:hover{
@@ -373,4 +409,5 @@ h1 {
         height: 100vh;
     }
 }
+
 

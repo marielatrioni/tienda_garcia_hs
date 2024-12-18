@@ -35,20 +35,17 @@
         <main>
             <div class="titulos row">
                 <h3>García | Hair Studio</h3>
-                <h1>Contacto</h1>
+                <h1>Carrito</h1>
             </div>
             <hr />
-            <section class="contacto">
-                <form class="form" action="https://formspree.io/f/xyzyzwze" method="POST">
-                    <div class="form_container">
-                        <p>Completa el siguiente formulario para comunicarte con nosotrxs:</p>
-                        <input type="text" name="nombre" id="nombre" class="form_input" placeholder="Escribe tu nombre">
-                        <span id="error-nombre"></span>
-                        <input type="email" name="email" id="email" class="form_input" placeholder="Escribe tu email">
-                        <textarea name="mensaje" id="mensaje" class="form_input form_msj" rows="5" placeholder="Escribe tu mensaje"></textarea>
-                        <button class="form_submit" type="submit">Enviar</button>
-                    </div>
-                </form>
+            <section class="carrito">
+
+                <div id="carrito">
+                    <h2>Carrito de Compras Mypupi</h2>
+                    <ul id="lista-carrito"></ul>
+                    <div id="subtotal">subtotal</div>
+                    <button id="vaciar-carrito">Vaciar Carrito</button>
+                </div>
             </section>
         </main>
 
