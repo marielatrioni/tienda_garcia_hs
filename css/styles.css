@@ -26,7 +26,7 @@ body {
   display: flex;
 }
 .navbar ul li {
-  margin-right: 2em;
+  margin-right: 1.5rem;
   margin-left: 1rem;
   list-style: none;
 }
