@@ -14,9 +14,12 @@ Este proyecto es el desarrollo una página web que incluye un carrito de compras
 ✦ CSS
 
 
-
 ☞ Las funciones del sitio web serán:
+✦ Traer los productos de un Json
+✦ Agregar productos al carrito
+✦ Eliminar productos del carrito
+✦ Vaciar el carrito
+✦ Obtener el total de los productos del carrito
+✦ Mandar un mensaje a través de un form de contacto con validaciones
 
-✦ Agregar productos
-✦ Listar productos
-✦ Eliminar productos
+

@@ -410,4 +410,105 @@ h1 {
     }
 }
 
+#error-mensaje {
+  color: red;
+  font-size: 14px;
+}
 
+input:invalid, textarea:invalid {
+  border: 2px solid red;
+}
+
+input:valid, textarea:valid {
+  border: 2px solid green;
+}
+
+#carrito-contenido {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+#total {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.item-carrito {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto; 
+  gap: 20px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  transition: transform 0.2s ease;
+}
+
+.item-carrito p {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.item-carrito p strong {
+  font-weight: bold;
+}
+
+.item-carrito .eliminar-item {
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item-carrito .eliminar-item:hover {
+  background-color: #000;
+}
+
+/* Estilos para la visualización de las cantidades y precios */
+.item-carrito p:nth-child(2),
+.item-carrito p:nth-child(3) {
+  text-align: center;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+  .item-carrito {
+    grid-template-columns: 1fr 1fr; /* Dos columnas en tabletas */
+  }
+
+  .item-carrito p {
+    margin-bottom: 10px;
+  }
+
+  .item-carrito .eliminar-item {
+    grid-column: span 2; /* Eliminar en una sola línea */
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+
+  #carrito-contenido {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .item-carrito {
+    padding: 10px;
+  }
+
+  .item-carrito p {
+    font-size: 0.9em;
+  }
+
+  #total {
+    font-size: 1.1em;
+  }
+}

@@ -27,7 +27,7 @@
                     <i class="fas fa-bars" id="menu-bar"></i>
                 </div>
                 <div class="shop">
-                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
                 </div>
             </nav>
         </header>
@@ -39,13 +39,12 @@
             </div>
             <hr />
             <section class="contacto">
-                <form class="form" action="https://formspree.io/f/xyzyzwze" method="POST">
+                <form id="contact-form" class="form" action="https://formspree.io/f/xyzyzwze" method="POST">
                     <div class="form_container">
                         <p>Completa el siguiente formulario para comunicarte con nosotrxs:</p>
-                        <input type="text" name="nombre" id="nombre" class="form_input" placeholder="Escribe tu nombre">
-                        <span id="error-nombre"></span>
-                        <input type="email" name="email" id="email" class="form_input" placeholder="Escribe tu email">
-                        <textarea name="mensaje" id="mensaje" class="form_input form_msj" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                        <input type="text" name="nombre" id="nombre" class="form_input" placeholder="Escribe tu nombre" required>
+                        <input type="email" name="email" id="email" class="form_input" placeholder="Escribe tu email" required>
+                        <textarea name="mensaje" id="mensaje" class="form_input form_msj" rows="5" placeholder="Escribe tu mensaje" required></textarea>
                         <button class="form_submit" type="submit">Enviar</button>
                     </div>
                 </form>
