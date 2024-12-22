@@ -420,7 +420,7 @@ input:invalid, textarea:invalid {
 }
 
 input:valid, textarea:valid {
-  border: 2px solid green;
+  border: 2px solid rgb(75, 78, 75);
 }
 
 #carrito-contenido {

@@ -42,11 +42,12 @@
                 <form id="contact-form" class="form" action="https://formspree.io/f/xyzyzwze" method="POST">
                     <div class="form_container">
                         <p>Completa el siguiente formulario para comunicarte con nosotrxs:</p>
-                        <input type="text" name="nombre" id="nombre" class="form_input" placeholder="Escribe tu nombre" required>
-                        <input type="email" name="email" id="email" class="form_input" placeholder="Escribe tu email" required>
-                        <textarea name="mensaje" id="mensaje" class="form_input form_msj" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+                        <input type="text" name="nombre" id="nombre" class="form_input" placeholder="Escribe tu nombre">
+                        <input type="email" name="email" id="email" class="form_input" placeholder="Escribe tu email">
+                        <textarea name="mensaje" id="mensaje" class="form_input form_msj" rows="5" placeholder="Escribe tu mensaje"></textarea>
                         <button class="form_submit" type="submit">Enviar</button>
                     </div>
+                    <p id="error-mensaje"></p>
                 </form>
             </section>
         </main>
@@ -64,6 +65,7 @@
         </footer>
 
         <script src="./js/script.js"></script>
+        <script src="./js/contacto.js"></script>
 
     </body>
 </html>
